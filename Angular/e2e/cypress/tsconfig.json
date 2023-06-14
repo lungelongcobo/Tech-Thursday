@@ -1,10 +1,8 @@
 {
-  "extends": "../tsconfig.json",
   "compilerOptions": {
-    "baseUrl": "http://cert1-plus.lexis.com/",
     "types": ["cypress", "node","cypress-xpath"],
     "target":"es5",
     "lib":["es5","dom"],
   },
-  "include": ["**/*.ts"]
+  "include": ["**/*.ts","cypress/report.js"]
 }
