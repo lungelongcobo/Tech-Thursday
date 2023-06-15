@@ -15,3 +15,8 @@ Feature: Tour of Heroes Functionality
         And the hero heading "BOMBASTO Details" should be displayed
         And the "go back" button is displayed
         And the "save" button is displayed
+
+    Scenario: As a TOH user, I want to navigate to heroes page in order to see 9 heroes
+        When the user clicks on the "Heroes" button
+        Then the heroes page is displayed
+        And the "9" heroes should be displayed on the heroes page

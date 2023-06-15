@@ -23,7 +23,7 @@
             "name": "the user is on the landing page",
             "result": {
               "status": "passed",
-              "duration": 171000000
+              "duration": 154000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "the search bar is displayed",
             "result": {
               "status": "passed",
-              "duration": 4000000
+              "duration": 5000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "the \"4\" heroes should be displayed",
             "result": {
               "status": "passed",
-              "duration": 522000000
+              "duration": 510000000
             }
           }
         ]
@@ -63,7 +63,7 @@
             "name": "the user is on the landing page",
             "result": {
               "status": "passed",
-              "duration": 152000000
+              "duration": 132000000
             }
           },
           {
@@ -73,7 +73,7 @@
             "name": "the search bar is displayed",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 6000000
             }
           },
           {
@@ -83,7 +83,7 @@
             "name": "the user clicks on the hero \"Bombasto\"",
             "result": {
               "status": "passed",
-              "duration": 591000000
+              "duration": 601000000
             }
           },
           {
@@ -103,7 +103,7 @@
             "name": "the hero heading \"BOMBASTO Details\" should be displayed",
             "result": {
               "status": "passed",
-              "duration": 467000000
+              "duration": 444000000
             }
           },
           {
@@ -113,7 +113,7 @@
             "name": "the \"go back\" button is displayed",
             "result": {
               "status": "passed",
-              "duration": 4000000
+              "duration": 3000000
             }
           },
           {
@@ -124,6 +124,66 @@
             "result": {
               "status": "passed",
               "duration": 4000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "tour-of-heroes-functionality;as-a-toh-user,-i-want-to-navigate-to-heroes-page-in-order-to-see-9-heroes",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "As a TOH user, I want to navigate to heroes page in order to see 9 heroes",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the landing page",
+            "result": {
+              "status": "passed",
+              "duration": 125000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the search bar is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the user clicks on the \"Heroes\" button",
+            "result": {
+              "status": "passed",
+              "duration": 94000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the heroes page is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "the \"9\" heroes should be displayed on the heroes page",
+            "result": {
+              "status": "passed",
+              "duration": 450000000
             }
           }
         ]
