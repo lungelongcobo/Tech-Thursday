@@ -4,10 +4,10 @@ const { defineConfig } = require("cypress");
 module.exports = defineConfig({
   e2e: {
     env: {
-      login_url: '',
+      login_url: 'http://localhost:3000/crud-app',
       test_env: "",
-      password : "",
-      username: ""
+      password : "admin@example.com",
+      username: "admin@example.com"
     },
     specPattern: "**/*.feature",
     experimentalSessionAndOrigin:true,
