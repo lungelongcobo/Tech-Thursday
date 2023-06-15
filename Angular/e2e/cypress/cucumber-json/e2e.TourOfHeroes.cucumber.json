@@ -1,0 +1,133 @@
+[
+  {
+    "description": "    This Feature is a functionality of tour of heroes application",
+    "keyword": "Feature",
+    "name": "Tour of Heroes Functionality",
+    "line": 1,
+    "id": "tour-of-heroes-functionality",
+    "tags": [],
+    "uri": "TourOfHeroes.feature",
+    "elements": [
+      {
+        "id": "tour-of-heroes-functionality;as-a-toh-user,-i-want-to-navigate-to-dashboard-in-order-to-see-top-4-heroes-displayed",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "As a TOH user, I want to navigate to dashboard in order to see top 4 Heroes displayed",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the landing page",
+            "result": {
+              "status": "passed",
+              "duration": 171000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the search bar is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the \"4\" heroes should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 522000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "tour-of-heroes-functionality;as-a-toh-user,-i-want-to-select-a-hero-from-the-dashboard-in-order-to-see-the-hero-details-displayed",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "As a TOH user, I want to select a hero from the dashboard in order to see the hero details displayed",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the landing page",
+            "result": {
+              "status": "passed",
+              "duration": 152000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the search bar is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "the user clicks on the hero \"Bombasto\"",
+            "result": {
+              "status": "passed",
+              "duration": 591000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the hero details page should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the hero heading \"BOMBASTO Details\" should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 467000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the \"go back\" button is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "the \"save\" button is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
